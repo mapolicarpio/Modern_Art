@@ -135,104 +135,76 @@ noStroke();
 fill(85, 222, 31);
 rect(40, 380, 20, 20);
 
-//
 noStroke();
 fill(122, 252, 197);
 rect(180, 320, 40, 20);
 
-//
 noStroke();
 fill(85, 222, 31);
 rect(280, 400, 20, 20);
 
-//
 noStroke();
 fill(183, 83, 28);
 rect(200, 440, 40, 40);
 
-//Circles
-
-//
 fill(122, 252, 197);
 ellipse(120, 180, 60, 60);
 
-//
 fill(183, 83, 28);
 ellipse(280, 220, 20, 20);
 
-//
 fill(255, 44, 44);
 arc(400, 360, 40, 40, radians(180), radians(450), CHORD);
 
-//
 fill(226, 255, 44);
 arc(140, 360, 40, 40, radians(35), radians(305), PIE);
-
-//LINES
-//
-
-
-//
 
 strokeWeight(5);
 stroke(0, 0, 0 );
 line(140, 500, 500, 60);
 
-//
 strokeWeight(5);
 line(0, 220, 500, 500);
 
-//
 strokeWeight(5);
 line(0, 40, 220, 200);
 
-//
 strokeWeight(5);
 line(220, 200, 340, 0);
 
-//
 strokeWeight(5);
 line(200, 0, 500, 240);
 
-//
 strokeWeight(5);
 line(100, 0, 100, 500);
 
-//
-//strokeWeight(5);
+strokeWeight(5);
 line(380, 0, 380, 500);
 
-//
 strokeWeight(5);
 line(360, 0, 360, 500);
-//
 
 strokeWeight(5);
 line(0, 140, 500, 140);
-//
 
 strokeWeight(5);
 line(0, 300, 500, 300);
-//
+
 strokeWeight(5);
 line(0, 460, 500, 460);
 
-//TRIM
 strokeWeight(10);
 line(0, 0, 500, 0);
-//
 
 strokeWeight(10);
 line(0, 0, 0, 500);
-//
 
 strokeWeight(10);
 line(0, 500, 500, 500);
-//
+
 strokeWeight(10);
 line(500, 0, 500, 500);
 
-//
 beginShape();
 strokeWeight(5);
 fill(255, 44, 44);
@@ -241,7 +213,7 @@ vertex(260, 140);
 vertex(220, 200);
 vertex(220, 140);
 endShape();
-//
+
 strokeWeight(5);
 stroke(0, 0, 0);
 noFill();
@@ -255,4 +227,3 @@ vertex(200, 500);
 vertex(0, 400);
 endShape();
 strokeWeight(5);
-
