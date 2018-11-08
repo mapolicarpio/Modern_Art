@@ -1,11 +1,6 @@
 size(500, 500);
 background(255, 255, 255);
 
-
-
-//POLYGONS
-//
-//
 beginShape();
 strokeWeight(5);
 fill(255, 44, 44);
@@ -15,34 +10,26 @@ vertex(220, 200);
 vertex(220, 140);
 endShape();
 
-//RECTANGLES
-
-//
 noStroke();
 fill(183, 83, 28);
 rect(480, 480, 20, 20);
 
-//
 noStroke();
 fill(122, 252, 197);
 rect(480, 460, 20, 20);
 
-//
 noStroke();
 fill(226, 255, 44);
 rect(460, 460, 20, 20);
 
-//
 noStroke();
 fill(255, 44, 44);
 rect(460, 480, 20, 20);
 
-//
 noStroke();
 fill(85, 221, 31);
 rect(440, 460, 20, 20);
 
-//
 rect(480, 440, 20, 20);
 fill(122, 252, 197);
 
@@ -52,85 +39,66 @@ fill(183, 83, 28);
 fill(226, 252, 44);
 rect(440, 480, 20, 20);
 
-
-//
 noStroke();
 fill(226, 252, 44);
 rect(20, 0, 40, 20);
 
-
-//
 noStroke();
 fill(226, 255, 44);
 rect(0, 0, 20, 20);
 
-
-//
 noStroke();
 fill(85, 222, 31);
 rect(0, 20, 20, 20);
 
-//
 noStroke();
 fill(255, 44, 44);
 rect(20, 20, 20, 20);
 
-//
 noStroke();
 fill(255, 44, 44);
 rect(140, 60, 40, 40);
 
-//
 noStroke();
 fill(183, 83, 28);
 rect(220, 0, 20, 40);
 
-//
 noStroke();
 fill(122, 252, 197);
 rect(40, 100, 20, 20);
 
-//
 noStroke();
 fill(122, 252, 197);
 rect(220, 200, 20, 20);
 
-//
 noStroke();
 fill(85, 222, 31);
 rect(320, 80, 40, 60);
 
-//
 noStroke();
 fill(255, 44, 44);
 rect(420, 20, 20, 20);
 
-//
 noStroke();
 fill(226, 255, 44);
 rect(400, 60, 20, 20);
 
-//
 noStroke();
 fill(183, 83, 28);
 rect(300, 140, 20, 20);
 
-//
 noStroke();
 fill(85, 222, 31);
 rect(400, 200, 20, 40);
 
-//
 noStroke();
 fill(183, 83, 28);
 rect(40, 240, 40, 40);
 
-//
 noStroke();
 fill(183, 83, 28);
 rect(20, 320, 20, 20);
 
-//
 noStroke();
 fill(85, 222, 31);
 rect(40, 380, 20, 20);
